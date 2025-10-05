@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Item Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+      background-color: #f8f8f8;
+    }
+    input, button {
+      padding: 1rem;
+      font-size: 1rem;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    #result {
+      font-size: 1.2rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h2>Search Your Inventory</h2>
+  <input type="text" id="searchBox" placeholder="Enter item name..." />
+  <button onclick="searchItem()">Find Item</button>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
